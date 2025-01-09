@@ -1,1 +1,4 @@
-"# pomonas-grove-site" 
+# pomonas-grove-site
+A static website themed around apples. Initially intended to be a website just themed around apples, for a better purpose for the site existing I made up a fictional cult called Pomona's Grove and made a site about them that they might use. Made with Bootstrap and based on the [Yummy - Bootstrap Restaurant Website Template](https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/)
+
+Completed in 2023. This was my submission for the module 'Web Development and Databases', part of the Computer Science Bachelor's Degree course by UWE (University of West England) for the first year. With this submission I got 65 marks out of 100 for the component, a passing grade. A module specification document is available in the repo for further reading on assessment details. Although the UWE module specification mentions implementing databases I did not develop a backend for the site as the module leader decided to grade only the frontend aspects, the concept and purpose of the site and how javascript was used to code dynamic functionalities of the site.
