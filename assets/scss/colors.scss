@@ -1,0 +1,20 @@
+@import "../imported/bootstrap/scss/_functions";
+@import "../imported/bootstrap/scss/_variables";
+
+// custom variables
+$custom-btn-colors:(
+  'carousel-green': #8A9A5B,
+  'carousel-yellow': #FFFFE0,
+  'carousel-red': #D22B2B,
+  'intro-box': #A52A2A,
+  'donate-btn-red': #D22B2B,
+  'book-btn-red': #D22B2B,
+  // 'red-radio': #D22B2B,
+  // 'green-radio': green,
+  // 'yellow-radio': 	#EEDC82,
+);
+
+$theme-colors: map-merge($custom-btn-colors, $theme-colors);
+
+// import bootstrap
+@import "../imported/bootstrap/scss/bootstrap";

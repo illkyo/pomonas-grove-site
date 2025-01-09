@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <title>Pomona's Grove</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Raleway:wght@100&display=swap" rel="stylesheet">
+
+  <!-- Imported CSS Files -->
+  <link href="assets/imported/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/imported/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/imported/aos/aos.css" rel="stylesheet">
+  <link href="assets/imported/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/imported/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Custom CSS Files -->
+  <link href="assets/css/colors.min.css" rel="stylesheet">
+  <link href="assets/css/styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex">
+    <div class="container d-flex align-items-center justify-content-evenly">
+
+      <a class="navbar-brand fs-4" href="index.html">
+        Pomona's Grove <i class="bi bi-apple"></i> 
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="#herocarousel">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#apples">Apples</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#visit">Join Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a class="btn rounded-pill" href="#visit" role="button">Donate</a>
+
+      <!-- <div class="btn-group btn-group-sm" role="group" aria-label="Basic radio toggle button group">
+        <input type="radio" class="btn-check" name="btnradio" id="redRadio" autocomplete="off" checked>
+        <label class="btn btn-red-radio" id="redLabel" for="redRadio">Red</label>
+      
+        <input type="radio" class="btn-check" name="btnradio" id="greenRadio" autocomplete="off">
+        <label class="btn btn-green-radio" id="greenLabel" for="greenRadio">Green</label>
+      
+        <input type="radio" class="btn-check" name="btnradio" id="yellowRadio" autocomplete="off">
+        <label class="btn btn-yellow-radio" id="yellowLabel" for="yellowRadio">Yellow</label>
+      </div> -->
+
+    </div>
+  </header>
+
+  <!-- ======= Hero Carousel Section ======= -->
+  <section id="herocarousel">
+    <div id="applecarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img/carousel/apples1.jpg" class="d-block w-100 h-100 object-fit-cover" alt="apples">
+          <div class="top-50 start-50 translate-middle my-5 carousel-caption d-md-block">
+            <h1 style="color: #FAA0A0;">Have an Apple to Recharge your day</h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/carousel/apples2.jpg" class="d-block w-100 h-100 object-fit-cover" alt="just apples">
+          <div class="top-50 start-50 translate-middle my-5 carousel-caption d-md-block">
+            <h1 style="color: #8A9A5B;">Eat an Apple, It's Easy</h1>
+            <a class="btn btn-outline-carousel-green rounded-pill mt-4" href="#applebuying" role="button">Buy Some Today</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/carousel/apples3.jpg" class="d-block w-100 h-100 object-fit-cover" alt="more apples">
+          <div class="top-50 start-50 translate-middle my-5 carousel-caption d-md-block">
+            <h1 style="color: #FFFFE0;">An Apple A Day keeps the Doctor Away!</h1>
+            <a class="btn btn-outline-carousel-yellow rounded-pill mt-4" href="#applehealthbenefits" role="button">Health Benefits</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/carousel/apples4.jpg" class="d-block w-100 h-100 object-fit-cover" alt="many apples">
+          <div class="top-50 start-50 translate-middle my-5 carousel-caption d-md-block">
+            <h1 style="color: #DFFF00;">One of the top rated & highly nutrious fruits in the world</h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/carousel/apples5.jpg" class="d-block w-100 h-100 object-fit-cover" alt="it's apples">
+          <div class="top-50 start-50 translate-middle my-5 carousel-caption d-md-block">
+            <h1 style="color: #D22B2B;">Spread more Apples around the World</h1>
+            <a class="btn btn-outline-carousel-red rounded-pill mt-4" href="#applefarmdonating" role="button">Donate To An Apple Farm</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/carousel/apples6.jpg" class="d-block w-100 h-100 object-fit-cover" alt="more apples">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#applecarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#applecarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <main id="main">
+    
+    <section id="about">
+      <!-- ======= Welcome Section ======= -->
+      <section id="welcome" class="welcome">
+        <div class="container" data-aos="fade-up">
+
+          <div class="section-header">
+            <h2>About Us</h2>
+            <p>Welcome to <span>Pomona's Grove</span></p>
+          </div>
+
+          <div class="row gy-4">
+
+            <div class="col-lg-8 d-flex" data-aos="fade-up">
+              <div class="content ps-0 ps-lg-5">
+                <p class="fst-italic">
+                  We are a unique haven dedicated to the artistry of apples. With an unwavering focus on this captivating fruit, we've created a close-knit community that celebrates the allure of nature's bounty. Nestled amid orchards that whisper with stories of ancient orchardists, Pomona's Grove is a gathering place for those who appreciate the subtle complexities of apples. Our members, affectionately known as "Orchard Enthusiasts," share a deep connection to the myriad flavors and experiences that apples offer. From expertly crafted ciders that awaken the palate to guided celebrations of the apple harvest, we invite you to embark on a journey that delves into the rich tapestry of apple heritage. Join us in this vibrant tapestry where we honor the apple's symbolic legacy and cultivate a shared passion for the extraordinary world of apples
+                </p>
+                <p class="fst-italic">
+                  Within the embrace of Pomona's Grove, each apple varietal is a masterpiece waiting to be savored. Our orchards are a sanctuary where members can immerse themselves in the art of apple cultivation, learning the delicate balance of nurturing and patience that yields the perfect harvest. From the sweet nostalgia of a Honeycrisp to the enigmatic allure of a Pink Pearl, every apple holds a story, and every bite is an invitation to explore a new chapter. Through hands-on workshops, seasonal festivities, and the camaraderie of fellow Orchard Enthusiasts, Pomona's Grove fosters a shared journey of discovery. It's a place where the love for apples runs deep, and where the spirit of exploration leads to revelations both on the palate and in the heart
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 mt-2" data-aos="fade-left" data-aos-delay="150">
+              <img src="assets/img/about.jpg" class="img-fluid h-100 w-100 object-fit-cover" alt="orchard">
+            </div>
+            
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ======= Four Tenants Section ======= -->
+      <section id="tenants" class="tenants section-bg">
+        <div class="container" data-aos="fade-up">
+
+          <div class="row gy-4">
+
+            <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
+              <div class="intro-box text-center">
+                <h3>The Four Tenants</h3>
+                <p>
+                  At Pomona's Grove, our community is guided by four fundamental principles, each as diverse and vibrant as the apples we adore. These tenets, deeply rooted in our orchard heritage, serve as the compass for our collective journey. They encompass the celebration of diversity within our apple-loving family, a commitment to sustainable stewardship of the land, the sharing of knowledge and traditions, and the unwavering belief in the transformative power of apples to connect and inspire. These principles not only define our unique identity but also shape the path toward a more harmonious relationship with nature, the apple, and one another.
+                </p>
+                <div class="text-center">
+                  <a href="#" class="btn btn-intro-box rounded-pill pb-2">Learn More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-12 d-flex align-items-center">
+              <div class="row gy-4">
+
+                <div class="col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                  <div class="icon-box d-flex flex-column align-items-center">
+                    <i class="bi bi-unity"></i>
+                    <h4>Celebration of Diversity</h4>
+                    <p>
+                      In Pomona's Grove, we embrace the rich tapestry of apple diversity. Just as no two apples are exactly alike, our community is a harmonious blend of individuals from all walks of life who share a common love for this exceptional fruit. We believe that by celebrating our differences and appreciating the uniqueness each person brings, we create a stronger, more vibrant orchard family
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                  <div class="icon-box d-flex flex-column align-items-center">
+                    <i class="bi bi-tree"></i>
+                    <h4>Sustainable Stewardship</h4>
+                    <p>
+                      Our commitment to the land mirrors the care we put into every apple we grow. We are dedicated stewards of the orchards, practicing sustainable farming techniques that protect the environment and ensure the longevity of these cherished groves. By nurturing the earth, we ensure that future generations can enjoy the bounty of our orchards just as we do today
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col-lg-3" data-aos="fade-up" data-aos-delay="400">
+                  <div class="icon-box d-flex flex-column align-items-center">
+                    <i class="bi bi-share"></i>
+                    <h4>Knowledge and Tradition Sharing</h4>
+                    <p>
+                      Pomona's Grove is not just a place to enjoy apples; it's a living repository of apple wisdom and traditions. We cherish the sharing of knowledge, from age-old apple cultivation techniques passed down through generations to the innovative methods of today. This exchange of wisdom keeps our community thriving and our orchards abundant
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col-lg-3" data-aos="fade-up" data-aos-delay="500">
+                  <div class="icon-box d-flex flex-column align-items-center">
+                    <i class="bi bi-apple"></i>
+                    <h4>The Transformative Power of Apples</h4>
+                    <p>
+                      We believe in the apple's unique ability to connect and inspire. Beyond their delicious taste, apples hold deep symbolism and cultural significance. They bring people together, spark creativity, and provide nourishment for both body and soul. At Pomona's Grove, we see apples as more than just fruit; they are catalysts for growth, change, and a sense of belonging
+                    </p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+    <!-- ======= Stat Section ======= -->
+    <section id="stat-section" class="stat-section">
+      <div class="container" data-aos="zoom-out">
+        <div class="stat-item text-center w-100 h-100">
+          <p>Over</p>
+          <p class="stat">100,000</p>
+          <p>Orchard Enthusiasts Worldwide</p>
+        </div>
+      </div>
+    </section>
+
+        <!-- ======= Founders Section ======= -->
+    <section id="founders" class="founders section-bg">
+      <div class="container" data-aos="fade-up">
+    
+        <div class="row gy-4">
+    
+          <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="founder">
+              <div class="founder-img">
+                <img src="assets/img/founders/founder-1.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="founder-info">
+                <span>Our Patriach</span>
+                <h4>Walter Blanco</h4>
+                <p>A venerable figure whose wisdom and leadership have guided our apple-loving community for generations. With a heart deeply rooted in orchard heritage, Walter embodies the very essence of our devotion to apples. His tireless dedication to preserving apple traditions, nurturing the land, and fostering unity among our members has made him a beloved and respected figure within our Grove.</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="founder">
+              <div class="founder-img">
+                <img src="assets/img/founders/founder-2.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="founder-info">
+                <span>Our Matriach</span>
+                <h4>Melissa Colwin</h4>
+                <p>The nurturing heart of our close-knit apple community. With a profound understanding of the emotional and spiritual dimensions of apple devotion, Melissa has played a pivotal role in fostering a sense of belonging and unity among our members. Her warm presence and sage counsel provide solace and guidance to those who seek it, weaving a sense of family into our apple-loving fold.</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="founder">
+              <div class="founder-img">
+                <img src="assets/img/founders/founder-3.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="founder-info">
+                <span>Our Lord</span>
+                <h4>Jack Nolan</h4>
+                <p>Stands as a stalwart guardian of our apple-centered realm. His leadership is marked by a deep sense of responsibility and a commitment to preserving the sanctity of our community. Jack's keen insights and unwavering dedication to our orchard's prosperity inspire us all. Under his guidance, Pomona's Grove has flourished as a harmonious and vibrant haven for apple enthusiasts.</p>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+    
+      </div>
+    </section>
+    </section>
+
+    <!-- ======= Apples Section ======= -->
+    <section id="apples" class="apples">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header text-center">
+          <h2>Apples</h2>
+          <p>About <span>Apples</span></p>
+        </div>
+
+        <ul class="nav nav-tabs d-flex justify-content-evenly" data-aos="fade-up" data-aos-delay="200">
+
+          <li class="nav-item">
+            <a class="nav-link red-nav active" data-bs-toggle="tab" data-bs-target="#red">
+              <h4>Red</h4>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link green-nav" data-bs-toggle="tab" data-bs-target="#green">
+              <h4>Green</h4>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link yellow-nav" data-bs-toggle="tab" data-bs-target="#yellow">
+              <h4>Yellow</h4>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="300">
+
+          <div class="tab-pane fade active show" id="red">
+
+            <div class="row g-5">
+
+              <div class="col-lg-6 apple">
+                <a href="assets/img/apples/red/red-delicious.png" class="glightbox"><img src="assets/img/apples/red/red-delicious.png" class="apple-img img-fluid" alt=""></a>
+                <h4>Red Delicious</h4>
+                <p class="desc text-center">
+                  An excellent keeper known for the consistency of its texture, bright red color, and conical shape. It is a sweet apple, lightly aromatic with a firm, cream-colored flesh.
+                </p>
+              </div>
+
+              <div class="col-lg-6 apple">
+                <a href="assets/img/apples/red/gala.png" class="glightbox"><img src="assets/img/apples/red/gala.png" class="apple-img img-fluid" alt=""></a>
+                <h4>Gala</h4>
+                <p class="desc text-center">
+                  A red-orange apple with yellow striping, crunchy and juicy, with a sweet, pear-like flavor. Well-suited for snacking, salads, and baking, Gala is ready for picking in September. It tends to darken in color the longer it is stored.
+                </p>
+              </div>
+
+
+              <div class="col-lg-6 apple">
+                <a href="assets/img/apples/red/honeycrisp.png" class="glightbox"><img src="assets/img/apples/red/honeycrisp.png" class="apple-img img-fluid" alt=""></a>
+                <h4>Honeycrisp</h4>
+                <p class="desc text-center">
+                  Exceptionally juicy with an explosive crunch beyond compare, Honeycrisp has a variable red skin with pale green highlights. Its crispy flesh is cream-colored and a mostly sweet flavor. Honeycrisp is excellent for fresh-eating and in salads. Honeycrisp can be picked as early as late August. It is a good storing apple.
+                </p>
+              </div>
+
+              <div class="col-lg-6 apple">
+                <a href="assets/img/apples/red/fuji.png" class="glightbox"><img src="assets/img/apples/red/fuji.png" class="apple-img img-fluid" alt=""></a>
+                <h4>Fuji</h4>
+                <p class="desc text-center">
+                  A medium to large apple, with orange-red skin. It has some sweetness from its Red Delicious parent, but it is denser and more complex. Its flesh is firm, crisp and juicy. Author Frank Browning includes Fuji in his list of 20 Prize Apples in his book Apples. Fuji is an excellent fresh eating apple, and it is good dried. It is also a great keeper, maintaining its quality for up to one year refrigerated or several weeks left in a fruit bowl. Fuji ripens in late October.
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="green">
+
+            <div class="row g-5">
+
+              <div class="col-lg-6 apple">
+                <a href="assets/img/apples/green/granny-smith.png" class="glightbox"><img src="assets/img/apples/green/granny-smith.png" class="apple-img img-fluid" alt=""></a>
+                <h4>Granny Smith</h4>
+                <p class="desc text-center">
+                  Is bright green with gray dots, called lenticels, or pores. Its crisp flesh is greenish white, the peel on the tough side. It is a tart apple, good for pies and fresh eating. Although it requires a long growing season, more and more New England orchards are able to grow it. Harvest begins in mid- to late October, into November.
+                </p>
+              </div>
+
+              <div class="col-lg-6 apple">
+                <a href="assets/img/apples/green/crispin.png" class="glightbox"><img src="assets/img/apples/green/crispin.png" class="apple-img img-fluid" alt=""></a>
+                <h4>Crispin</h4>
+                <p class="desc text-center">
+                  Also known as Mutsu, is an excellent dessert, salad, and cider apple. It has a sweet, light flavor when cooked, and it holds its shape well. Can grow quite large. Its skin is yellow with a slight orange blush, and the flesh is white to pale yellow.
+                </p>
+              </div>
+
+              <div class="col-lg-6 apple">
+                <a href="assets/img/apples/green/rhode-island-greening.png" class="glightbox"><img src="assets/img/apples/green/rhode-island-greening.png" class="apple-img img-fluid" alt=""></a>
+                <h4>Rhode Island Greening</h4>
+                <p class="desc text-center">
+                  is an excellent pie and all-around cooking apple. It has a green peel and a flesh that is greenish-white with a tart flavor. This heirloom variety is a good substitute for Granny Smith. Usually it is ready for picking in September, but sweetens on the tree if picked in October.
+                </p>
+              </div>
+
+              <div class="col-lg-6 apple">
+                <a href="assets/img/apples/green/shizuka.png" class="glightbox"><img src="assets/img/apples/green/shizuka.png" class="apple-img img-fluid" alt=""></a>
+                <h4>Shizuka</h4>
+                <p class="desc text-center">
+                  A large, green-yellow apple with a red-orange blush, Shizuka has the same parentage as the Crispin, but its flavor is sweeter, and less tart. Shizuka is firm and juicy, and slow to brown when cut, making it ideal for salads. It ripens in mid-October, and stores well.
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="yellow">
+
+            <div class="row g-5">
+
+              <div class="col-lg-6 apple">
+                <a href="assets/img/apples/yellow/jonagold.png" class="glightbox"><img src="assets/img/apples/yellow/jonagold.png" class="apple-img img-fluid" alt=""></a>
+                <h4>Jonagold</h4>
+                <p class="desc text-center">
+                  is a large, slightly conical apple with an orangish-red blush. Its flesh is explosively crisp and juicy, similar to Honeycrisp but with more apple flavor. Look for Jonagolds in early to mid-October.
+                </p>
+              </div>
+
+              <div class="col-lg-6 apple">
+                <a href="assets/img/apples/yellow/golden-delicious.png" class="glightbox"><img src="assets/img/apples/yellow/golden-delicious.png" class="apple-img img-fluid" alt=""></a>
+                <h4>Golden Delicious</h4>
+                <p class="desc text-center">
+                  Though not related to Red Delicious, Golden Delicious shares its shape and many of its leading characteristics. Like the Red, Golden Delicious is a sweet, medium-to-large apple, with  pear-like flavor. It is an excellent keeper. Golden Delicious has a greenish-yellow skin that turns gold, and its yellow flesh is crisp and juicy.
+                </p>
+              </div>
+
+              <div class="col-lg-6 apple">
+                <a href="assets/img/apples/yellow/ginger-gold.png" class="glightbox"><img src="assets/img/apples/yellow/ginger-gold.png" class="apple-img img-fluid" alt=""></a>
+                <h4>Ginger Gold</h4>
+                <p class="desc text-center">
+                  is sweet, tangy, and juicy. It is round with a smooth green-yellow skin and a slight red blush. Ginger Gold is an excellent multi-purpose eating and cooking apple; it also excels as a salad apple, as the crisp, white flesh browns slowly when sliced. Ginger Gold is harvested as early as late August.
+                </p>
+              </div>
+
+              <div class="col-lg-6 apple">
+                <a href="assets/img/apples/yellow/opal.png" class="glightbox"><img src="assets/img/apples/yellow/opal.png" class="apple-img img-fluid" alt=""></a>
+                <h4>Opal</h4>
+                <p class="desc text-center">
+                  is a large, sweet, coarsely-grained apple, once widely grown in New England. Harvest begins in mid-September; this multipurpose apple may be enjoyed for only a month or so after picking.
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container" data-aos="fade-up">
+
+        <div class="testimonials-slide swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        Each apple tells a story of life, growth, and the sweet embrace of simplicity.
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>Walter Blanco</h3>
+                      <h4>Our Patriarch</h4>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 text-center">
+                    <img src="assets/img/testimonials/testimonials-1.jpg" class="img-fluid testimonial-img" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        I always recommend incorporating apples into your diet. They're not just delicious; they're a natural prescription for good health.
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>Sandra Lee</h3>
+                      <h4>Doctor</h4>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 text-center">
+                    <img src="assets/img/testimonials/testimonials-2.jpg" class="img-fluid testimonial-img" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        They're a taste of the community's love and dedication to preserving nature's finest gift, one crisp bite at a time.
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>Darleen Moon</h3>
+                      <h4>Orchard Enthusiast</h4>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 text-center">
+                    <img src="assets/img/testimonials/testimonials-3.jpg" class="img-fluid testimonial-img" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        Apples are a testament to the beauty of nature's cycles and the sweet rewards of hard work and dedication in the orchard
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>Don Collins</h3>
+                      <h4>Farmer</h4>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 text-center">
+                    <img src="assets/img/testimonials/testimonials-4.jpg" class="img-fluid testimonial-img" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======= News Section ======= -->
+    <section id="news" class="news section-bg">
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>News</h2>
+          <p>Latest <span>Info</span> on <span>Apples & Us</span></p>
+        </div>
+
+        <div class="news-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide news-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/news-1.jpg)">
+              <h3>Global Apple Production Reaches All-Time High in 2023</h3>
+              <p class="summary">
+                Despite various challenges, worldwide apple production has hit an unprecedented high in 2023. This surplus is poised to benefit consumers and markets, making apples more accessible and affordable.
+              </p>
+            </div>
+
+            <div class="swiper-slide news-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/news-2.jpg)">
+              <h3>Pomona's Grove Harvest Sets New Records Amidst Global Apple Shortage</h3>
+              <p class="summary">
+                The renowned apple orchard, reported a bumper harvest season, defying the worldwide apple shortage. The farm's innovative agricultural practices and dedication to sustainability have resulted in an abundance of high-quality apples, offering a glimmer of hope for apple enthusiasts.
+              </p>
+            </div>
+
+            <div class="swiper-slide news-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/news-3.jpg)">
+              <h3>Pomona's Grove Leads the Way in Sustainable Apple Farming</h3>
+              <p class="summary">
+                The Grove is making headlines yet again in the agricultural world by pioneering sustainable practices in apple farming. Their commitment to eco-friendly cultivation methods and reducing carbon footprint serves as a shining example for the industry.
+              </p>
+            </div>
+
+            <div class="swiper-slide news-item d-flex flex-column justify-content-end" style="background-image: url(assets/img/news-4.jpg)">
+              <h3>Apple Orchards as Eco-Havens: Conserving Biodiversity Through Farming</h3>
+              <p class="summary">
+                Apple orchards are increasingly recognized as important sanctuaries for biodiversity, with farmers implementing conservation practices to protect pollinators and wildlife while growing delicious fruit.
+              </p>
+            </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>gallery</h2>
+          <p>Check <span>Our Gallery</span></p>
+        </div>
+
+        <div class="gallery-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" data-glightbox="title: Apple Orchard (2019); description: by Lee Sangyeol, a cherished member" href="assets/img/gallery/gallery-1.jpg"><img src="assets/img/gallery/gallery-1.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" data-glightbox="title: A loving family; description: Our congregation is one big family " href="assets/img/gallery/gallery-2.jpg"><img src="assets/img/gallery/gallery-2.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" data-glightbox="title: Ann Fruit (2000); description: by Thomas Chrom" href="assets/img/gallery/gallery-3.jpg"><img src="assets/img/gallery/gallery-3.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" data-glightbox="title: Home (2017); description: by Jonas Neilsson" href="assets/img/gallery/gallery-4.jpg"><img src="assets/img/gallery/gallery-4.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" data-glightbox="title: A tour; description: Visitors get free tours around the Orchard on our tractors" href="assets/img/gallery/gallery-5.jpg"><img src="assets/img/gallery/gallery-5.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" data-glightbox="title: Journalists come visit; description: Everyone is welcomed here" href="assets/img/gallery/gallery-6.jpg"><img src="assets/img/gallery/gallery-6.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" data-glightbox="title: Our Home; description: An outside shot of our main facility" href="assets/img/gallery/gallery-7.jpg"><img src="assets/img/gallery/gallery-7.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" data-glightbox="title: A Dinner Party; description: Our members regularly hold parties amongst themselves" href="assets/img/gallery/gallery-8.jpg"><img src="assets/img/gallery/gallery-8.jpg" class="img-fluid" alt=""></a></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======= Visit Section ======= -->
+    <section id="visit" class="visit section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Visit</h2>
+          <p>Come <span>Visit</span></p>
+        </div>
+
+        <div class="row g-0">
+
+          <div class="col-lg-4 visit-img" style="background-image: url(assets/img/visit.jpg);" data-aos="zoom-out" data-aos-delay="200"></div>
+
+          <div class="col-lg-8 d-flex align-items-center form-bg">
+            <form role="form" class="visitors-form" data-aos="fade-up" data-aos-delay="100">
+              <div class="row gy-4">
+                <div class="col-lg-4 col-md-6">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Name">
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                </div>
+                <div class="col-lg-4 col-md-12">
+                  <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone Number">
+                </div>
+                <div class="col-lg-12">
+                  <input type="text" name="date" class="form-control" id="date" placeholder="Date">
+                </div>
+              </div>
+              <div class="form-group mt-5 mb-4">
+                <textarea class="form-control" name="purpose" rows="5" placeholder="Purpose"></textarea>
+              </div>
+              <div class="text-center"><a class="btn btn-book-btn-red rounded-pill" href="#visit" role="button">Book a Visit</a></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Contact</h2>
+          <p>Need Help? <span>Contact Us</span></p>
+        </div>
+
+        <div class="mb-3">
+          <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed/v1/place?q=Pomona,+NY,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-md-6">
+            <div class="info-item  d-flex align-items-center">
+              <i class="icon bi bi-map flex-shrink-0"></i>
+              <div>
+                <h3>Our Address</h3>
+                <p>P9082 Pomona, New York</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="info-item d-flex align-items-center">
+              <i class="icon bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email Us</h3>
+                <p>PomonassGrove1@Gmail.com</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="info-item  d-flex align-items-center">
+              <i class="icon bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Call Us</h3>
+                <p>+1 505-644-1060</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="info-item  d-flex align-items-center">
+
+              <i class="icon bi bi-door-open flex-shrink-0"></i>
+
+              <div>
+                <h3>Opening Hours</h3>
+                <p>
+                  <strong>Sunday:</strong> Closed
+                </p>
+                <p>
+                  <strong>Monday - Saturday:</strong> 11AM - 23PM
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="row gy-3">
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-geo-alt icon"></i>
+          <div>
+            <h4>Address</h4>
+            <p>
+              P9082 Pomona <br>
+              New York - US <br>
+            </p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links d-flex">
+          <i class="bi bi-telephone icon"></i>
+          <div>
+            <h4>Contact Info</h4>
+            <p>
+              <strong>Phone:</strong> +1 505-644-1060<br>
+              <strong>Email:</strong> PomonassGrove1@Gmail.com
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links d-flex">
+          <i class="bi bi-clock icon"></i>
+          <div>
+            <h4>Opening Hours</h4>
+            <p>
+              <strong>Sunday:</strong> Closed<br>
+              <strong>Monday - Saturday:</strong> 11AM - 23PM
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Social Media</h4>
+          <div class="social-links d-flex">
+            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Pomona's Grove</span></strong>. All Rights Reserved
+      </div>
+    </div>
+
+  </footer>
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  
+  <!-- Imported JS Files -->
+  <script src="assets/imported/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/imported/aos/aos.js"></script>
+  <script src="assets/imported/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/imported/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/imported/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/imported/php-email-form/validate.js"></script>
+    
+  <!-- Custom JS File -->
+  <script src="assets/js/index.js"></script>
+
+</body>
+
+</html>
